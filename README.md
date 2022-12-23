@@ -1,4 +1,4 @@
-# Acid Spotify Version - Browser App like Chrome
+# Acid Spotify Version - Browser App like Chromium
 <h2>Para MacOS, Windows & Linux
 
 ## Sobre:
@@ -18,4 +18,4 @@
 4. Abra o Spotify Web e depois vá no Chrome em `Opções > Mais Ferramentas > Criar Atalho...`
 5. CLique em `Abrir como uma janela` & clique em Criar
 6. Abra o Spotify como um App
-7. Não a pasta do scritp, pois o spotify deixa de funcionar.
+7. Não a pasta do script, pois o spotify deixa de funcionar.
