@@ -1,11 +1,11 @@
 # Acid Spotify Version - Browser App like Chrome
 <h2>Para MacOS, Windows & Linux
 
-## Novidades:
+## Sobre:
 
-- Removido todas as propagandas
-- Sem a necessidade de pular anúncios
-- Removidos os botões premium e install😁
+- Apenas a título de conhecimento, fica aqui uma falha no aplicativo que permite sua execução.
+- Toda a responsabilidade pelo uso é sua, me isento de qualquer ônus.
+- Trata-se de uma demonstração de falhas.
 
 <img width="1440" alt="screenshot.jpg" src="img/screenshot.jpg">
   
