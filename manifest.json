@@ -1,22 +1,49 @@
 {
-
-   "background": {
-      "scripts": [ "js/background.js" ]
-
-   },
-   "content_scripts": [
-      {
-        "matches": ["https://open.spotify.com/*"],
-        "css" : ["style.css"]
-      }
-  ],
-
-   "description": "Acid Spotify Version",
-   "icons": {
-      "128": "img/icon.png"
-   },
-   "manifest_version": 2,
-   "name": "Acid Spotify",
-   "permissions": [ "webRequest", "webRequestBlocking", "*://open.spotify.com/*", "*://audio-ak-spotify-com.akamaized.net/*", "https://*.googlesyndication.com/*", "*://audio-akp-quic-spotify-com.akamaized.net/*", "*://gae-spclient.spotify.com/*", "*://*.audio-fa.scdn.co/*"],
-   "version": "1.0"
+    "browser_action": {
+        "default_icon": {
+            "128": "img/logo.png"
+        },
+        "default_title": "Acid Spotify Hacker",
+        "default_popup": "html/popup.html"
+    },
+    "background": {
+        "persistent": true,
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "run_at": "document_start",
+            "all_frames": true,
+            "matches": [
+                "https://open.spotify.com/*"
+            ],
+            "js": [
+                "js/popup.js"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ],
+    "description": "Acid Spotify Hacker",
+    "icons": {
+        "128": "img/logo.png"
+     },
+    "manifest_version": 2,
+    "name": "Acid Spotify Hacker",
+    "permissions": [
+        "tabs", "<all_urls>",
+        "webRequest",
+        "webNavigation",
+        "webRequestBlocking",
+        "*://open.spotify.com/*",
+        "*://audio-ak-spotify-com.akamaized.net/*",
+        "https://*.googlesyndication.com/*",
+        "*://audio-akp-quic-spotify-com.akamaized.net/*",
+        "*://gae-spclient.spotify.com/*",
+        "*://*.audio-fa.scdn.co/*"
+    ],
+    "version": "3.396"
 }
